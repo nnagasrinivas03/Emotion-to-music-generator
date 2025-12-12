@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emotion → Music Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎵 Emotion to Music Generator</h1>
+
+    <label>Select Emotion</label>
+    <select id="emotion">
+        <option value="happy">😊 Happy</option>
+        <option value="sad">😢 Sad</option>
+        <option value="angry">😡 Angry</option>
+        <option value="relaxed">😌 Relaxed</option>
+    </select>
+
+    <button onclick="generateMusic()">Generate Music</button>
+
+    <p id="status"></p>
+
+    <audio id="player" controls></audio>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

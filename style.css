@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    background: rgba(255,255,255,0.15);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    background: #222;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #444;
+}
